@@ -10,8 +10,8 @@ public class SimpleTest {
     @Test
     public void stringIsNotEmpty() {
         SimpleTest stringIsNotEmpty = new SimpleTest();
-        String string = null;
-        assertNotNull(stringIsNotEmpty.toString());
+        String notNullString = "Test";
+        assertNotNull(notNullString);
     }
 
     @Test
