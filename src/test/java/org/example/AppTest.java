@@ -1,5 +1,6 @@
 package org.example;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -7,18 +8,26 @@ import static org.junit.jupiter.api.Assertions.*;
 /**
  * Unit test for simple App.
  */
+
+//Homework 08
+//Task 2
+
 public class AppTest {
-    @Test
-    public void stringIsNotEmpty() {
-        SimpleTest stringIsNotEmpty = new SimpleTest();
-        assertNotNull("");
+
+@Test
+    @BeforeEach
+    public void calculator5(){
+        Calculator calculator = new Calculator();
+        assertEquals(12.0,12.0, 0.001);
+    }
+@Test
+    public void calculator6 (){
+        assertEquals(12.5,12.5, 0.001);
     }
 
-        @Test
-        public void theTwoValuesAreEqual() {
-            SimpleTest theTwoValuesAreEqual = new SimpleTest();
-            assertTrue(25==25);
-        }
+
+
+
 
 
 
