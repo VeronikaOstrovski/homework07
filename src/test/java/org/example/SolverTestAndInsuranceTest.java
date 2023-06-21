@@ -6,7 +6,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class SolverTest {
+public class SolverTestAndInsuranceTest {
     @Test
     public void squareRootParamTestIsNotRoot() {
         Solver08 solver = new Solver08();
