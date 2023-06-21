@@ -1,6 +1,6 @@
 package org.example;
 
-public class Insurance {
+public class Insurance08 {
 
     public int insurance100(int a) {
         int age100 = a;

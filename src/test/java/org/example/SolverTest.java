@@ -34,7 +34,7 @@ public class SolverTest {
     @ParameterizedTest
     @ValueSource(ints = {30, 50, 65})
     public void insuranceCoast100(int param) {
-        Insurance coast = new Insurance();
+        Insurance08 coast = new Insurance08();
         int result100 = coast.insurance100(param);
         assertTrue(result100==100);
     }
@@ -43,7 +43,7 @@ public class SolverTest {
     @ParameterizedTest
     @ValueSource(ints = {18, 22, 29})
     public void insuranceCoast120(int param) {
-        Insurance coast = new Insurance();
+        Insurance08 coast = new Insurance08();
         int result120 = coast.insurance120(param);
         assertTrue(result120 == 120);
     }
@@ -51,7 +51,7 @@ public class SolverTest {
     @ParameterizedTest
     @ValueSource(ints = {66, 72, 79})
     public void insuranceCoast130(int param) {
-        Insurance coast = new Insurance();
+        Insurance08 coast = new Insurance08();
         int result130 = coast.insurance130(param);
         assertTrue(result130 == 130);
     }
@@ -59,7 +59,7 @@ public class SolverTest {
     @ParameterizedTest
     @ValueSource(ints = {29, 66, 17, 30, 65, 80})
     public void insuranceCoast0(int param) {
-        Insurance coast = new Insurance();
+        Insurance08 coast = new Insurance08();
         int result100 = coast.insurance100(param);
         int result120 = coast.insurance120(param);
         int result130 = coast.insurance130(param);
