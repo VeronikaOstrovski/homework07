@@ -25,19 +25,20 @@ public class Insurance08 {
             return coast120 = 0;
         }
     }
-        public int insurance130(int a) {
-            int age130 = a;
-            int coast130;
-            if (age130 >= 66 && age130 <= 79) {
-                return coast130 = 130;
-            }
-            if (age130 < 66 && age130 > 79) ;
-            {
-                return coast130 = 0;
-            }
+
+    public int insurance130(int a) {
+        int age130 = a;
+        int coast130;
+        if (age130 >= 66 && age130 <= 79) {
+            return coast130 = 130;
+        }
+        if (age130 < 66 && age130 > 79) ;
+        {
+            return coast130 = 0;
+        }
     }
 
-    public int insurance0(int a) {
+    public int insuranceFirstWay0(int a) {
         int age100 = a;
         int age120 = a;
         int age130 = a;
@@ -48,8 +49,23 @@ public class Insurance08 {
         if (age120 < 18 && age120 > 29) {
             return coast0 = 0;
         }
-        if (age130 < 66 && age130 > 79); {
+        if (age130 < 66 && age130 > 79) ;
+        {
             return coast0 = 0;
         }
+    }
+
+    public int insuranceSecondWay0(int a) {
+        int age0 = a;
+        int coast = 0;
+        if (age0 <= 17 && age0 >= 80) ;
+        {
+            return coast;
+        }
+//        if (age0 > 17 && age0 < 80); {
+//            return coast = 100;
+//                return coast = 120;
+//                }
+//        return coast = 130;}
     }
 }

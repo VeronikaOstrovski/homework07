@@ -36,7 +36,7 @@ public class SolverTestAndInsuranceTest {
     public void insuranceCoast100(int param) {
         Insurance08 coast = new Insurance08();
         int result100 = coast.insurance100(param);
-        assertTrue(result100==100);
+        assertTrue(result100 == 100);
     }
 
 
@@ -58,17 +58,28 @@ public class SolverTestAndInsuranceTest {
 
     @ParameterizedTest
     @ValueSource(ints = {29, 66, 17, 30, 65, 80})
-    public void insuranceCoast0(int param) {
+    public void insuranceCoastFirstWay0(int param) {
         Insurance08 coast = new Insurance08();
         int result100 = coast.insurance100(param);
         int result120 = coast.insurance120(param);
         int result130 = coast.insurance130(param);
-        int result0 = coast.insurance0(param);
+        int result0 = coast.insuranceFirstWay0(param);
         assertTrue(result0 == 0);
         assertTrue(result100 == 0);
         assertTrue(result120 == 0);
         assertTrue(result130 == 0);
     }
+
+    @ParameterizedTest
+    @ValueSource(ints = {29, 66, 17, 30, 65, 80})
+    public void insuranceCoastSecondWay0(int param) {
+        Insurance08 coast = new Insurance08();
+        int result = coast.insuranceSecondWay0(param);
+        assertTrue(result == 0);
+
     }
+
+}
+
 
 
