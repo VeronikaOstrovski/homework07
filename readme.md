@@ -1,13 +1,13 @@
 Calculator
 
-| Number | Check name | Status |        
-|--------|------------|--------|
-| 1      | 20+5       | Passed |
-| 2      | 4+8        | Passed |
-| 3      | 18-8       | Passed |
-| 4      | 6-4        | Passed |
-| 5      | 3*4        | Passed |
-| 6      | 25/2       | Passed |
+| Number | Check name                                        | Status |        
+|--------|---------------------------------------------------|--------|
+| 1      | Calculator int number 10 + int number 15          | Passed |
+| 2      | Calculator int number 32 - int number 20          | Passed |
+| 3      | Calculator int number 2 + int number 3            | Passed |
+| 4      | Calculator int number 24 - int number 12          | Passed |
+| 5      | Calculator double number 3.0 * double number 4.0  | Passed |
+| 6      | Calculator double number 50.0 / double number 2.0 | Passed |
 
 Solver
 
